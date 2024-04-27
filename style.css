@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+#Board{
+    background-color: azure;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    margin-top: 100px;
+    border: 2px solid black;
+    height: 400px;
+    width: 400px;
+}
+.box{
+    display: flex;
+    margin: auto;
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    font-size:xx-large;
+    font-weight: bold;
+}
